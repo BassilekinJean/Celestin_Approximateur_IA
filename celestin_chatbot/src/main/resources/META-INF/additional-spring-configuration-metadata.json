@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "rapidapi.gemini.url",
+    "type": "java.lang.String",
+    "description": "A description for 'rapidapi.gemini.url'"
+  },
+  {
+    "name": "rapidapi.gemini.host",
+    "type": "java.lang.String",
+    "description": "A description for 'rapidapi.gemini.host'"
+  },
+  {
+    "name": "rapidapi.gemini.key",
+    "type": "java.lang.String",
+    "description": "A description for 'rapidapi.gemini.key'"
+  },
+  {
+    "name": "google.gemini.api-key",
+    "type": "java.lang.String",
+    "description": "A description for 'google.gemini.api-key'"
+  },
+  {
+    "name": "google.gemini.model",
+    "type": "java.lang.String",
+    "description": "A description for 'google.gemini.model'"
+  }
+]}
