@@ -11,9 +11,9 @@ import com.ia.celestin.fs_team1.gemini_chatbot.service.GeminiDirectApiService;
 @RequestMapping("/api/chat")
 public class ChatController {
 
-    private final GeminiDirectApiService geminiDirectApiService; // Change le type de service
+    private final GeminiDirectApiService geminiDirectApiService; 
 
-    public ChatController(GeminiDirectApiService geminiDirectApiService) { // Change l'injection
+    public ChatController(GeminiDirectApiService geminiDirectApiService) { 
         this.geminiDirectApiService = geminiDirectApiService;
     }
 
@@ -26,7 +26,7 @@ public class ChatController {
         return new ChatResponse(botResponse);
     }
 
-    // Les classes ChatRequest et ChatResponse restent les mêmes
+    
     public static class ChatRequest {
         private String message;
         public ChatRequest() {}

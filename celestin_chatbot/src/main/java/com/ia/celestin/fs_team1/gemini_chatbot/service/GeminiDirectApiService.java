@@ -75,7 +75,6 @@ public class GeminiDirectApiService {
     @PreDestroy
     public void closeGeminiClient() {
         if (geminiClient != null) {
-            // geminiClient.close(); // La méthode close n'existe pas sur ce client spécifique, on laisse le GC faire.
             System.out.println("Client Gemini fermé.");
         }
     }

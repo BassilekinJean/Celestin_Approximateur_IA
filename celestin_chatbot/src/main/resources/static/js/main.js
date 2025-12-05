@@ -63,8 +63,6 @@ const playSound = (type) => {
 
 // --- Logic Brain of Célestin ---
 const callGeminiFlash = async (userInput, chatHistory) => {
-    // On prépare l'historique pour que Célestin ait de la mémoire (facultatif mais mieux)
-    // Ici on fait simple : juste le prompt système + le message actuel
     
     const url = '/api/chat';
     
