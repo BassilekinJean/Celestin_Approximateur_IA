@@ -161,7 +161,7 @@ curl http://localhost:8080/actuator/health
 
 ## 👥 Équipe
 
-Développé avec ❤️ par **FS_Team1**
+Développé avec ❤️ par **FS_UY1_TEAM1**
 
 ---
 
